@@ -5,18 +5,28 @@ body {
   align-items: center;
 }
 
-.colorBtn {
-  padding: 0.25rem 0.5rem;
-  border: 3px solid #fefefe;
-  border-radius: 7px;
-  color: white;
-  background: rgba(0, 0, 0, 0.6);
-  font-size: 1.5rem;
+.hexColor {
   text-transform: capitalize;
-  cursor: pointer;
-  outline: none;
 }
 
-.colorBtn:hover {
+.hex {
+  font-size: 3rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.hexBtn {
+  color: red;
+  border: 3px solid red;
+  border: radius 7px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 1.6rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.hexBtn:hover {
   background: rgb(0, 0, 0);
+  cursor: pointer;
 }
